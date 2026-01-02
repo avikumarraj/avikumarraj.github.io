@@ -4,7 +4,7 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+
 
 # Setup
 title:            Hyde
@@ -18,9 +18,13 @@ author:
   url:            https://x.com/avikumarraj
 
 paginate:         5
+paginate_path:    "/blog/page:num/"
+
 
 # Custom vars
-version:          2.1.0
+version:          
 
-github:
-  repo:           https://github.com/avikumarraj/avikumarraj.github.io
+github: https://github.com/avikumarraj/avikumarraj.github.io
+
+sidebar_blog_link:  '/blog'
+
